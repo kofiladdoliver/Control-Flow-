@@ -25,6 +25,6 @@ x = 1
 # while loop will see if a condition jt has been meet
 # if not it will run again until the condition has beeen meet
 
-while x <= 10:
+while x <= 666:
     print(x)
-    x = x + 1
+    x-=15
