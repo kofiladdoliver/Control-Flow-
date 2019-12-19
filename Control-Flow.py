@@ -14,3 +14,17 @@ while guess != my_number:
     print ("Your an idiot\n")
     guess = int(input("Try Again Stupid: "))
 print ("\nLet me poop in your mouth")
+
+
+"""
+Programmer: Commander Kofi
+Date: 12.19.19
+Program: 1-10
+"""
+x = 1
+# while loop will see if a condition jt has been meet
+# if not it will run again until the condition has beeen meet
+
+while x <= 50000000000000000000:
+    print(x)
+    x+=1200000
