@@ -4,27 +4,11 @@ Date: 12.16.19
 Program: Guess My Number
 """
 
-my_number = 10
+sum = 10
+how_many_numbers = int(input("How many numbers you want to sum: "))
 
-# Ask the user to guess
-guess = int(input("\nEnter a guess: "))
+for i in range(how_many_numbers):
+    enter_a_number = int(input("\nEnter a number: "))
+    sum = sum + enter_a_number
 
-# Keep asking until the guess becomes equal to the secret number
-while guess != my_number:
-    print ("Your an idiot\n")
-    guess = int(input("Try Again Stupid: "))
-print ("\nLet me poop in your mouth")
-
-
-"""
-Programmer: Commander Kofi
-Date: 12.19.19
-Program: 1-10
-"""
-x = 1
-# while loop will see if a condition jt has been meet
-# if not it will run again until the condition has beeen meet
-
-while x <= 50000000000000000000:
-    print(x)
-    x+=1200000
+print("\nSum of your numbers is : " + str(sum))
