@@ -1,8 +1,8 @@
-"""
-Programmer: Commander Kofi
-Date: 12.16.19
-Program: Guess My Number
-"""
+
+# Programmer: Commander Kofi
+# Date: 12.16.19
+# Program: Guess My Number
+
 
 my_number = 10
 
@@ -16,14 +16,14 @@ while guess != my_number:
 print ("\nLet me poop in your mouth")
 
 
-"""
-Programmer: Commander Kofi
-Date: 12.19.19
-Program: 1-10
-"""
+
+#Programmer: Commander Kofi
+#Date: 12.19.19
+#Program: 1-10
+
 x = 1
 # while loop will see if a condition jt has been meet
-# if not it will run again until the condition has beeen meet
+# if not it will run again until the condition has been meet
 
 while x <= 50000000000000000000:
     print(x)
