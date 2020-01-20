@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 """
 Programmer: Commander Kofi Ladd-Oliver
 Date: 12.16.19
@@ -7,6 +8,17 @@ total = 0
 how_many_tests = int(input("How many tests would you like to average: "))
 print("")
 
+=======
+
+#Programmer: Commander Kofi Ladd-Oliver
+#Date: 12.16.19
+#Program: Guess My Number
+
+total = 0
+how_many_tests = int(input("How many tests would you like to average: "))
+print("")
+
+>>>>>>> Development
 for i in range(how_many_tests):
     enter_a_score = int(input("Enter a score: "))
     total = total + enter_a_score
