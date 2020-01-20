@@ -1,30 +1,14 @@
 
-# Programmer: Commander Kofi
-# Date: 12.16.19
-# Program: Guess My Number
+#Programmer: Commander Kofi Ladd-Oliver
+#Date: 12.16.19
+#Program: Guess My Number
 
+total = 0
+how_many_tests = int(input("How many tests would you like to average: "))
+print("")
 
-my_number = 10
-
-# Ask the user to guess
-guess = int(input("\nEnter a guess: "))
-
-# Keep asking until the guess becomes equal to the secret number
-while guess != my_number:
-    print ("Your an idiot\n")
-    guess = int(input("Try Again Stupid: "))
-print ("\nLet me poop in your mouth")
-
-
-
-#Programmer: Commander Kofi
-#Date: 12.19.19
-#Program: 1-10
-
-x = 1
-# while loop will see if a condition jt has been meet
-# if not it will run again until the condition has been meet
-
-while x <= 50000000000000000000:
-    print(x)
-    x+=1200000
+for i in range(how_many_tests):
+    enter_a_score = int(input("Enter a score: "))
+    total = total + enter_a_score
+    avg = total / how_many_tests
+print("\nAverage: " + str(round(avg, 2)))
