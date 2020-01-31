@@ -21,3 +21,4 @@ for i in range(4):
     while x >= 0:
         print("\tWhile Looop: "+ str(x))
         x = x - 1
+        print()
