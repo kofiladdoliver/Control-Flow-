@@ -33,6 +33,11 @@ def printTwoNumber(x, y = 71):
 def printSum(x, y):
     print(x + y)
 
+# print multiplue Times
+def printMultiplueTimes(string, times):
+    for i in range(times):
+        print(string)
+
 # call function here...
 
 # greeting()
@@ -42,8 +47,8 @@ def printSum(x, y):
 # printNumber(38)
 # printTwoNumber(23, 78)
 # printTwoNumber(45)
-printSum(1, 17)
-
+# printSum(1, 17)
+printMultiplueTimes("I love rocks", 2)
 
 
 
