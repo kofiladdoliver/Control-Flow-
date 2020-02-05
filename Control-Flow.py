@@ -3,7 +3,7 @@
 # Programmer; Kofi Ladd-Oliver
 # Global Varibles here
 
-# name = input("\nWhat is your name: ")
+name = input("\nWhat is your name: ")
 
 x = 15
 
@@ -38,17 +38,32 @@ def printMultiplueTimes(string, times):
     for i in range(times):
         print(string)
 
-# call function here...
 
-# greeting()
-# printSomething()
+# call function here...
+print("\n----Greetings Funtion----\n")
+greeting()
+
+print("\n----Print Something Function----\n")
+printSomething()
+
 # print(x)
-# printNumber(28)
-# printNumber(38)
-# printTwoNumber(23, 78)
-# printTwoNumber(45)
-# printSum(1, 17)
+print("\n----Print Number Funtion----\n")
+printNumber(28)
+printNumber(38)
+
+print("\n----Print Two Numbers Function----\n")
+printTwoNumber(23, 78)
+
+print("\n----Default Parameter Values Function----\n")
+printTwoNumber(45)
+
+print("\n----print Sum Function----\n")
+printSum(1, 17)
+
+print("\n----Print Multiplue Times Function----\n")
 printMultiplueTimes("I love rocks", 2)
+
+print("\n----Thanks for being a test dummy----")
 
 
 
